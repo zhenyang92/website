@@ -117,8 +117,17 @@
               "devServerTarget": "website:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://github.com/zhenyang92/website",
+            "name": "Chang Lyu",
+            "email": "Chang_Lyu@outlook.com"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "website"
 }

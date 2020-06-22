@@ -1,0 +1,60 @@
+<div class="container">
+  <div class="container" class="titleContainer">
+    <h1>{{ mainTitle }}</h1>
+  </div>
+  <div class="container">
+    <h2 class="part-title">{{ introTitle }}</h2>
+    <div class="container intro-container">
+      {{ intro }}
+    </div>
+    <div class="container contact-container">
+      <div [attr.title]="email" class="email-container">
+        <fa-icon [icon]="faEnvelope" size="lg"></fa-icon> :
+        <a [attr.href]="emailAdress">Email me</a>
+      </div>
+      <div class="download-container">
+        <fa-icon [icon]="faDownload" size="lg"></fa-icon> :
+        <a href="assets/file/CV.pdf" download="">CV</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <app-education></app-education>
+  </div>
+
+  <div class="container">
+    <h2 class="part-title">{{ researchExpPartTitle }}</h2>
+    <div>
+      <p>{{ researchExpPartContent }}</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2 class="part-title">{{ teachingExpPartTitle }}</h2>
+    <div>
+      <p>{{ teachingExpPartContent }}</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2 class="part-title">{{ honorsPartTitle }}</h2>
+    <div>
+      <p>{{ honorsPartContent }}</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2 class="part-title">{{ publicationsPartTitle }}</h2>
+    <div>
+      <p>{{ publicationsPartContent }}</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2 class="part-title">{{ conferencePartTitle }}</h2>
+    <div>
+      <p>{{ conferencePartContent }}</p>
+    </div>
+  </div>
+</div>

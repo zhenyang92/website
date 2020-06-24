@@ -46,7 +46,7 @@ export const profile = {
           university: 'University of Alberta',
           role: 'Teaching Assistant',
           detail:
-            'Created questions for the course seminars and developed a Python-Latex based program to automatically generate dierent seminar versions based on dierent combinations of the questions.',
+            'Created questions for the course seminars and developed a Python-Latex based program to automatically generate different seminar versions based on different combinations of the questions.',
         },
         {
           date: 'Winter 2019: ',

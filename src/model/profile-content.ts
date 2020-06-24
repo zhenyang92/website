@@ -39,17 +39,20 @@ export const profile = {
       articles: [
         {
           authors:
-            'Jin, C., Yang, Z., Li, J., Zheng, Y., Pfleging, W., & Tang, T. (2020). ',
+            'Jin, C., <strong>Yang, Z.</strong>, Li, J., Zheng, Y., Pfleging, W., & Tang, T. (2020). ',
           name:
             'Bio-inspired interfaces for easy-to-recycle lithium-ion batteries. ',
           journal: 'Extreme Mechanics Letters. ',
           doi: 'https://doi.org/10.1016/j.eml.2019.100594',
         },
         {
-          authors: 'Yang, Z., Jin, C., & Tang, T. (2020). ',
+          authors: '<strong>Yang, Z.</strong>, Jin, C., & Tang, T. (2020). ',
           name: 'Asymmetric complementary interface for directional adhesion. ',
           journal: 'International Journal of Solids and Structures. ',
           doi: 'https://doi.org/10.1016/j.ijsolstr.2019.12.001',
+        },
+        {
+          authors: 'TBD. ',
         },
       ],
     },

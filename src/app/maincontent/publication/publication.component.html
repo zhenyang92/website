@@ -2,8 +2,9 @@
 <div class="articles-container">
   <ol>
     <li *ngFor="let article of articles">
-      {{ article.authors }} {{ article.name }} <em>{{ article.journal }}</em
-      ><a [attr.href]="article.doi">{{ article.doi }}</a>
+      <span [innerHTML]="article.authors"></span> {{ article.name }}
+      <em>{{ article.journal }}</em
+      ><a [attr.href]="article.doi" target="_blank">{{ article.doi }}</a>
     </li>
   </ol>
 </div>

@@ -1,0 +1,9 @@
+<h2 class="part-title">{{ title }}</h2>
+<div class="articles-container">
+  <ol>
+    <li *ngFor="let article of articles">
+      {{ article.authors }} {{ article.name }} <em>{{ article.journal }}</em
+      ><a [attr.href]="article.doi">{{ article.doi }}</a>
+    </li>
+  </ol>
+</div>

@@ -11,6 +11,7 @@ import { MatIconModule } from '@angular/material/icon'
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { IntroComponent } from './maincontent/intro/intro.component';
 import { TeachingComponent } from './maincontent/teaching/teaching.component';
+import { PublicationComponent } from './maincontent/publication/publication.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { TeachingComponent } from './maincontent/teaching/teaching.component';
     MaincontentComponent,
     EducationComponent,
     IntroComponent,
-    TeachingComponent
+    TeachingComponent,
+    PublicationComponent
   ],
   imports: [
     BrowserModule,

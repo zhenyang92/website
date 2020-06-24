@@ -1,7 +1,7 @@
 export const profile = {
   email: 'zhen1@ualberta.ca',
   sideNavContent: {
-    name: 'Yang, Zhen',
+    name: 'Yang, Zhen (杨真)',
     intro1: 'PhD student',
     intro2: 'Solid Mechanics, Soft Matter Science',
   },
@@ -17,8 +17,6 @@ export const profile = {
     teachingExpPartContent: 'Here is my teaching experience content:blablabla ',
     honorsPartTitle: 'Honors and Awards:',
     honorsPartContent: 'Here is my honors and awards  content:blablabla ',
-    publicationsPartTitle: 'Publications:',
-    publicationsPartContent: 'Here is my publication content:blablabla ',
     conferencePartTitle: 'Course Projects:',
     conferencePartContent: 'Here is my conferecne content:blablabla:',
     education: {
@@ -35,6 +33,25 @@ export const profile = {
         content:
           'Reserach in solid mechanics with a focus on the computational modelling of directional adhesion utilizing meso-scale structured interface, under the supervision of Prof. Tian Tang.',
       },
+    },
+    publications: {
+      title: 'Publications:',
+      articles: [
+        {
+          authors:
+            'Jin, C., Yang, Z., Li, J., Zheng, Y., Pfleging, W., & Tang, T. (2020). ',
+          name:
+            'Bio-inspired interfaces for easy-to-recycle lithium-ion batteries. ',
+          journal: 'Extreme Mechanics Letters. ',
+          doi: 'https://doi.org/10.1016/j.eml.2019.100594',
+        },
+        {
+          authors: 'Yang, Z., Jin, C., & Tang, T. (2020). ',
+          name: 'Asymmetric complementary interface for directional adhesion. ',
+          journal: 'International Journal of Solids and Structures. ',
+          doi: 'https://doi.org/10.1016/j.ijsolstr.2019.12.001',
+        },
+      ],
     },
   },
 };

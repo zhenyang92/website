@@ -14,8 +14,6 @@ export class MaincontentComponent implements OnInit {
 
   honorsPartTitle = profile.mainContent.honorsPartTitle;
   honorsPartContent = profile.mainContent.honorsPartContent;
-  publicationsPartTitle = profile.mainContent.publicationsPartTitle;
-  publicationsPartContent = profile.mainContent.publicationsPartContent;
   conferencePartTitle = profile.mainContent.conferencePartTitle;
   conferencePartContent = profile.mainContent.conferencePartContent;
 

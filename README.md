@@ -4,16 +4,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Install library
 
-ng add @ng-bootstrap/ng-bootstrap 
+ng add @ng-bootstrap/ng-bootstrap
 
 ## Development server
 
-Run `ng serve --open` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve --open` for a local server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## gh-pages
-Run `ng deploy --repo=https://github.com/zhenyang92/website --base-href="./" `  to deploy it directly to github pages. (it will compare and push to branch gh-pages)
 
-
+Run `ng deploy --repo=https://github.com/zhenyang92/website --base-href="./"` to deploy it directly to github pages. (it will compare and push to branch gh-pages)
 
 ## Code scaffolding
 

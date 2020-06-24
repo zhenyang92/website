@@ -19,20 +19,21 @@ export const profile = {
     honorsPartContent: 'Here is my honors and awards  content:blablabla ',
     publicationsPartTitle: 'Publications:',
     publicationsPartContent: 'Here is my publication content:blablabla ',
-    conferencePartTitle: 'Conferences:',
+    conferencePartTitle: 'Course Projects:',
     conferencePartContent: 'Here is my conferecne content:blablabla:',
     education: {
       educationPartTitle: 'Education and Research Activities: ',
       educationPart1: {
         intro:
-          'Sep. 2019 - Present | McGill University | Solid Mechanics & Soft Matter Science',
+          'Sep. 2019 - Present | McGill University, Montreal, QC, Canada | Solid Mechanics & Soft Matter Science',
         content:
-          'My research at McGill University is focused on the development of mechanically instructive material for wound dressing and tissue repair. This project is under the supervision of Prof. Jianyu Li. ',
+          'Research centered around the development of mechanically instructive material for wound dressing and tissue repair, under the supervision of Prof. Jianyu Li. ',
       },
       educationPart2: {
         intro:
-          'Jan. 2017 - Jan. 2019 | University of Alberta | Solid Mechanics, Adhesion',
-        content: 'Here is my education content:blablabla',
+          'Jan. 2017 - Jan. 2019 | University of Alberta, Edmonton, AB, Canada | Solid Mechanics, Adhesion',
+        content:
+          'Reserach in solid mechanics with a focus on the computational modelling of directional adhesion utilizing meso-scale structured interface, under the supervision of Prof. Tian Tang.',
       },
     },
   },

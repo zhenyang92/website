@@ -52,7 +52,14 @@ export const profile = {
           doi: 'https://doi.org/10.1016/j.ijsolstr.2019.12.001',
         },
         {
-          authors: 'TBD. ',
+          authors:
+            'Ma, Z., <strong>Yang, Z.</strong>, Bao, G., Valiei, A., Yang, F., Huo, R., Ma, D., Li, J. (2020). ',
+          journal: 'TBD.',
+        },
+        {
+          authors:
+            '<strong>Yang, Z.</strong>, <strong>Yang, X.</strong>, Long. R., Li, J. (2020). ',
+          journal: 'TBD.',
         },
       ],
     },

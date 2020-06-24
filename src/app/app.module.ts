@@ -9,12 +9,16 @@ import { MaincontentComponent } from './maincontent/maincontent.component';
 import { EducationComponent } from './maincontent/education/education.component';
 import { MatIconModule } from '@angular/material/icon'
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { IntroComponent } from './maincontent/intro/intro.component';
+import { TeachingComponent } from './maincontent/teaching/teaching.component';
 @NgModule({
   declarations: [
     AppComponent,
     SidenavComponent,
     MaincontentComponent,
-    EducationComponent
+    EducationComponent,
+    IntroComponent,
+    TeachingComponent
   ],
   imports: [
     BrowserModule,

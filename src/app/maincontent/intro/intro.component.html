@@ -1,0 +1,16 @@
+<div class="container">
+  <h2 class="part-title">{{ introTitle }}</h2>
+  <div class="container intro-container">
+    {{ intro }}
+  </div>
+  <div class="container contact-container">
+    <div [attr.title]="email" class="email-container">
+      <fa-icon [icon]="faEnvelope" size="lg"></fa-icon> :
+      <a [attr.href]="emailAdress">Email me</a>
+    </div>
+    <div class="download-container">
+      <fa-icon [icon]="faDownload" size="lg"></fa-icon> :
+      <a href="assets/file/CV.pdf" download="">CV</a>
+    </div>
+  </div>
+</div>

@@ -12,6 +12,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { IntroComponent } from './maincontent/intro/intro.component';
 import { TeachingComponent } from './maincontent/teaching/teaching.component';
 import { PublicationComponent } from './maincontent/publication/publication.component';
+import { HonorsComponent } from './maincontent/honors/honors.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import { PublicationComponent } from './maincontent/publication/publication.comp
     EducationComponent,
     IntroComponent,
     TeachingComponent,
-    PublicationComponent
+    PublicationComponent,
+    HonorsComponent
   ],
   imports: [
     BrowserModule,

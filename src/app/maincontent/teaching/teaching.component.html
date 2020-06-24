@@ -1,4 +1,15 @@
-<h2 class="part-title">{{ teachingExpPartTitle }}</h2>
+<h2 class="part-title">{{ title }}</h2>
 <div class="container">
-  <p>{{ teachingExpPartContent }}</p>
+  <div
+    class="teaching-experience-container"
+    *ngFor="let exp of teachingExperiences"
+  >
+    <ul>
+      <li>
+        {{ exp.date }} {{ exp.course }}
+        <div>{{ exp.university }} - {{ exp.role }}</div>
+      </li>
+    </ul>
+    <div>{{ exp.detail }}</div>
+  </div>
 </div>

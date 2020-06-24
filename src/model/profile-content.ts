@@ -13,10 +13,6 @@ export const profile = {
     researchExpPartTitle: 'Research Experience:',
     researchExpPartContent:
       'Here is my research experience content: blablabla..',
-    teachingExpPartTitle: 'Teaching Experience:',
-    teachingExpPartContent: 'Here is my teaching experience content:blablabla ',
-    honorsPartTitle: 'Honors and Awards:',
-    honorsPartContent: 'Here is my honors and awards  content:blablabla ',
     conferencePartTitle: 'Course Projects:',
     conferencePartContent: 'Here is my conferecne content:blablabla:',
     education: {
@@ -33,6 +29,103 @@ export const profile = {
         content:
           'Reserach in solid mechanics with a focus on the computational modelling of directional adhesion utilizing meso-scale structured interface, under the supervision of Prof. Tian Tang.',
       },
+    },
+    teachingExp: {
+      title: 'Teaching Experience:',
+      exp: [
+        {
+          date: 'Fall 2019: ',
+          course: 'MECH 574 Mechanics of biological materials',
+          university: 'McGill University',
+          role: 'Marker',
+          detail: 'Grading assignments and preparing solutions.',
+        },
+        {
+          date: 'Summer 2019: ',
+          course: 'ENPH 131 Mechanics',
+          university: 'University of Alberta',
+          role: 'Teaching Assistant',
+          detail:
+            'Created questions for the course seminars and developed a Python-Latex based program to automatically generate dierent seminar versions based on dierent combinations of the questions.',
+        },
+        {
+          date: 'Winter 2019: ',
+          course: 'MECE 362 Mechanics of Machines',
+          university: 'University of Alberta',
+          role: 'Teaching Assistant',
+          detail: 'Organized, taught seminars, and marked seminar quizzes.',
+        },
+        {
+          date: 'Summer 2018: ',
+          course: 'MECE 250 Engineering Mechanics II',
+          university: 'University of Alberta',
+          role: 'Teaching Assistant',
+          detail: 'Organized, taught seminars, and marked seminar quizzes.',
+        },
+        {
+          date: 'Winter 2018: ',
+          course: 'ENPH 131 Mechanics',
+          university: 'University of Alberta',
+          role: 'Teaching Assistant',
+          detail:
+            "Organized seminars, answered students' questions and marked seminar quizzes.",
+        },
+        {
+          date: 'Fall 2017: ',
+          course: 'MECE 362 Mechanics of Machines',
+          university: 'University of Alberta',
+          role: 'Teaching Assistant',
+          detail:
+            'Organized, taught seminars and marked assignments and seminar quizzes.',
+        },
+      ],
+    },
+    honorsAndAwards: {
+      title: 'Honors and Awards:',
+      honors: [
+        { date: '2020 ', title: 'McGill Graduate Excellence Scholarship' },
+        {
+          date: '2019 ',
+          title: 'McGill Engineering Doctoral Scholarship (MEDA)',
+        },
+        {
+          date: '2016 ',
+          title: 'MECE 460 Design Capstone Award, University of Alberta.',
+        },
+        {
+          date: '2015 ',
+          title:
+            'First Order Standing in Department of Engineering, University of Alberta.',
+        },
+        {
+          date: '2014 ',
+          title:
+            'First Order Standing in Department of Engineering, University of Alberta.',
+        },
+        {
+          date: '2013 ',
+          title:
+            'International Student Scholarship (1st renew), University of Alberta.',
+        },
+        {
+          date: '2012 ',
+          title:
+            'First Order Standing in Department of Engineering, University of Alberta.',
+        },
+        {
+          date: '2012 ',
+          title: 'International Student Scholarship, University of Alberta.',
+        },
+        {
+          date: '2012 ',
+          title:
+            'University of Alberta Maple Leaf First Year Excellence Scholarship.',
+        },
+        {
+          date: '2012 ',
+          title: 'University of Alberta Academic Excellence Scholarship.',
+        },
+      ],
     },
     publications: {
       title: 'Publications:',

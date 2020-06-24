@@ -7,8 +7,8 @@ import { profile } from 'src/model/profile-content';
   styleUrls: ['./teaching.component.css'],
 })
 export class TeachingComponent implements OnInit {
-  teachingExpPartTitle = profile.mainContent.teachingExpPartTitle;
-  teachingExpPartContent = profile.mainContent.teachingExpPartContent;
+  title = profile.mainContent.teachingExp.title;
+  teachingExperiences = profile.mainContent.teachingExp.exp;
   constructor() {}
 
   ngOnInit(): void {}

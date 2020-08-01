@@ -132,11 +132,17 @@ export const profile = {
       articles: [
         {
           authors:
-            'Jin, C., <strong>Yang, Z.</strong>, Li, J., Zheng, Y., Pfleging, W., & Tang, T. (2020). ',
-          name:
-            'Bio-inspired interfaces for easy-to-recycle lithium-ion batteries. ',
-          journal: 'Extreme Mechanics Letters. ',
-          doi: 'https://doi.org/10.1016/j.eml.2019.100594',
+            '<strong>Yang, Z.</strong>, <strong>Yang, X.</strong>, Long. R., Li, J. (2020). ',
+          journal: 'TBD.',
+        },
+        {
+          authors: 'Ni, X., <strong>Yang, Z.</strong>, Li, J. (2020). ',
+          journal: 'TBD.',
+        },
+        {
+          authors:
+            'Ma, Z., <strong>Yang, Z.</strong>, Bao, G., Valiei, A., Yang, F., Huo, R., Ma, D., Li, J. (2020). ',
+          journal: 'Science Advances in Revision.',
         },
         {
           authors: '<strong>Yang, Z.</strong>, Jin, C., & Tang, T. (2020). ',
@@ -146,13 +152,11 @@ export const profile = {
         },
         {
           authors:
-            'Ma, Z., <strong>Yang, Z.</strong>, Bao, G., Valiei, A., Yang, F., Huo, R., Ma, D., Li, J. (2020). ',
-          journal: 'TBD.',
-        },
-        {
-          authors:
-            '<strong>Yang, Z.</strong>, <strong>Yang, X.</strong>, Long. R., Li, J. (2020). ',
-          journal: 'TBD.',
+            'Jin, C., <strong>Yang, Z.</strong>, Li, J., Zheng, Y., Pfleging, W., & Tang, T. (2020). ',
+          name:
+            'Bio-inspired interfaces for easy-to-recycle lithium-ion batteries. ',
+          journal: 'Extreme Mechanics Letters. ',
+          doi: 'https://doi.org/10.1016/j.eml.2019.100594',
         },
       ],
     },

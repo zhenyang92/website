@@ -9,7 +9,7 @@ export const profile = {
     mainTitle: 'Welcome to my website!',
     introTitle: 'About me:',
     intro:
-      'I am a self-driven PhD student in the field of solid mechanics and soft matter science. I have accomplished my M.Sc. degree at the University of Alberta in the group of Prof. Tian Tang focusing on the asymmetric adhesion harnessing structured interface. I am currently pursuing my PhD degree at McGill University in the group of Prof. Jianyu Li focusing on the development of mechanically instructive material for wound dressing.',
+      'I am Zhen Yang. I am now a PhD student at McGill University in the field of solid mechanics and soft matter science. I accomplished my B.Sc. and M.Sc. degrees in Mechanical Engineering at the University of Alberta. My current project is focused on developing hydorgel-based tissue adhesives that are mechanically active and capable of self-adaption, to promote human well-being.',
     researchExpPartTitle: 'Research Experience:',
     researchExpPartContent:
       'Here is my research experience content: blablabla..',
@@ -132,17 +132,29 @@ export const profile = {
       articles: [
         {
           authors:
-            '<strong>Yang, Z.</strong>, <strong>Yang, X.</strong>, Long. R., Li, J. (2020). ',
-          journal: 'TBD.',
+            '<strong>Yang, Z.#</strong>, Yang, X.#, Long. R., Li, J. (2021). ',
+          name:'Stimulation modulates adhesion and mechanics of hydrogel adhesives.',
+          journal: 'Accepted. Langmuir',
         },
         {
-          authors: 'Ni, X., <strong>Yang, Z.</strong>, Li, J. (2020). ',
-          journal: 'TBD.',
+          authors:
+            '<strong>Yang, Z.</strong>, Ma, Z., Liu, S., Li, J. (2020). ',
+          name:'Tissue adhesion with tough hydrogels: Experiments and Modeling.',
+          journal: 'Mechanics of Materials. ',
+          doi:'https://doi.org/10.1016/j.mechmat.2021.103800'
+        },
+        {
+          authors: 'Ni, X.#, <strong>Yang, Z.#</strong>, Li, J. (2020). ',
+          name:'Scaling behavior of fracture properties of tough adhesive hydrogels.',
+          journal: 'ACS Macro Letters. ',
+          doi:'https://doi.org/10.1021/acsmacrolett.0c00854'
         },
         {
           authors:
             'Ma, Z., <strong>Yang, Z.</strong>, Bao, G., Valiei, A., Yang, F., Huo, R., Ma, D., Li, J. (2020). ',
-          journal: 'Science Advances in Revision.',
+          name: 'Bioinspired tough gel sheath for robust and versatile surface functionalization.',
+          journal: 'Science Advances. ',
+          doi: 'https://doi.org/10.1126/sciadv.abc3012',
         },
         {
           authors: '<strong>Yang, Z.</strong>, Jin, C., & Tang, T. (2020). ',
@@ -155,7 +167,7 @@ export const profile = {
             'Jin, C., <strong>Yang, Z.</strong>, Li, J., Zheng, Y., Pfleging, W., & Tang, T. (2020). ',
           name:
             'Bio-inspired interfaces for easy-to-recycle lithium-ion batteries. ',
-          journal: 'Extreme Mechanics Letters. ',
+          journal: 'Extreme Mechanics Letters.',
           doi: 'https://doi.org/10.1016/j.eml.2019.100594',
         },
       ],

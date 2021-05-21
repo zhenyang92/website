@@ -14,7 +14,7 @@ Run `ng serve --open` for a local server. Navigate to `http://localhost:4200/`. 
 
 ## gh-pages
 
-Run `ng deploy --repo=https://github.com/zhenyang92/website --base-href="./"` to deploy it directly to github pages. (it will compare and push to branch gh-pages)
+Run `ng deploy --repo=https://github.com/zhenyang92/website --base-href="./" --no-silent` to deploy it directly to github pages. (it will compare and push to branch gh-pages)
 
 ## Code scaffolding
 

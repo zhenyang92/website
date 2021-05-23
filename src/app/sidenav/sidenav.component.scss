@@ -1,31 +1,27 @@
-
-.sidenav-container{
-
+.sidenav-container {
   .intro-container {
     padding-top: 10px;
     padding-bottom: 10px;
     color: grey;
   }
-  
+
   .name-container {
     padding-top: 30px;
     color: #1e7ade;
   }
-  
+
   .contact-container {
     display: flex;
     flex-direction: row;
     width: 140px;
     margin: 0px;
     list-style-type: none;
-    li{
-      margin-right: 7px;
-      font-size: 1rem;
+    li {
+      margin-right: 9px;
+      font-size: 1.5rem;
     }
-    a{
-      color:black;
+    a {
+      color: black;
     }
   }
-
-  
 }

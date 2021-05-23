@@ -1,16 +1,43 @@
-<div class="container name-container">
-  <h1>{{ name }}</h1>
-</div>
-<div class="container">
-  <img
-    class="img-thumbnail"
-    src="assets/images/photo.jpg"
-    width="200px"
-    height="200px"
-  />
-</div>
+<div class="sidenav-container">
+  <div class="container name-container">
+    <h1>{{ name }}</h1>
+  </div>
+  <div class="container">
+    <img
+      class="img-thumbnail"
+      src="assets/images/photo.jpg"
+      width="200px"
+      height="200px"
+    />
+  </div>
 
-<div class="container intro-container">
-  <div>{{ intro1 }}</div>
-  <div>{{ intro2 }}</div>
+  <div class="container intro-container">
+    <div>{{ intro1 }}</div>
+    <div>{{ intro2 }}</div>
+  </div>
+
+  <ul class="container contact-container">
+    <li>
+      <a [attr.href]="emailAdress"
+        ><fa-icon [icon]="faEnvelope" size="sm"></fa-icon
+      ></a>
+    </li>
+
+    <li>
+      <a href="assets/file/CV.pdf" download="">
+        <a class="ai ai-cv"></a>
+      </a>
+    </li>
+    <li>
+      <a
+        target="_blank"
+        href="https://scholar.google.ca/citations?user=QxQ4wpMAAAAJ&hl=en"
+      >
+        <a class="ai ai-google-scholar"></a>
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/zhenyang92" target="_blank"><fa-icon [icon]="faGithub" size="sm"></fa-icon></a>
+    </li>
+  </ul>
 </div>

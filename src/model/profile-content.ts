@@ -3,7 +3,7 @@ export const profile = {
   sideNavContent: {
     name: 'Yang, Zhen (杨真)',
     intro1: 'PhD student',
-    intro2: 'Solid Mechanics, Soft Matter Science',
+    intro2: 'Solid Mechanics, Material Science',
   },
   mainContent: {
     mainTitle: 'Welcome to my website!',
@@ -13,8 +13,8 @@ export const profile = {
     researchExpPartTitle: 'Research Experience:',
     researchExpPartContent:
       'Here is my research experience content: blablabla..',
-    conferencePartTitle: 'Course Projects:',
-    conferencePartContent: 'Here is my conferecne content:blablabla:',
+    conferencePartTitle: 'Projects:',
+    conferencePartContent: '',
     education: {
       educationPartTitle: 'Education and Research Activities: ',
       educationPart1: {

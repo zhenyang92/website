@@ -15,3 +15,9 @@ body {
 .part-title {
   padding-top: 20px;
 }
+
+
+a:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
